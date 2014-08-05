@@ -1,0 +1,27 @@
+{
+    "name": "rendr-jade",
+    "version": "0.0.1",
+    "description": "Glue jade templates into a Rendr app.",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha test/**/*.test.js test/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@source.enterat.de:reservation-enginerendr-jade.git"
+    },
+    "dependencies": {
+        "underscore": "~1.4.4",
+        "jade": "~1.1.5",
+        "rendr": ">=0.4.9"
+    },
+    "keywords": [
+        "rendr",
+        "jade",
+        "templates"
+    ],
+    "devDependencies": {
+        "mocha": "~1.12.0"
+    }
+}
